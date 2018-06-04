@@ -1,0 +1,159 @@
+@font-face {
+    font-family: gobold-old;
+    font-weight: bold;
+    src: url("../assets/fonts/gobold-old.otf") format("opentype");
+}
+@font-face {
+    font-family: gotham-bold;
+    font-weight: bold;
+    src: url("../assets/fonts/gotham-bold.otf") format("opentype");
+}
+@font-face {
+    font-family: gotham-bold;
+    font-weight: italic;
+    src: url("../assets/fonts/gotham-bookitalic.otf") format("opentype");
+}
+@font-face {
+    font-family: gotham-bold;
+    font-weight: light;
+    src: url("../assets/fonts/gotham-light.otf") format("opentype");
+}
+body {
+  font-family: gotham-bold;
+  background-color: white;
+}
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a {
+  color: black;
+}
+a:hover {
+  color: #cccc00;
+}
+.row {
+    margin-bottom: 10px;
+}
+.cuerpoPrincipal {
+  background: #379CD4;
+}
+.cuerpoDetalles {
+  background: white;
+}
+#idiomaDerecha {
+  float: left;
+  position: absolute;
+  top: 5px;
+  color: #cccc00;
+  font-weight: bold;
+}
+.imagenIdioma{
+  width: 26px;
+  height: 26px;
+}
+#perfil {
+  margin-top: 20px;
+  width: 130px;
+  height: 130px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+h3 {
+  color: white;
+  font-weight: bold;
+}
+.contacto{
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+}
+.iconoContacto{
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.tituloCuerpoPrinc{
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+.subtituloCuerpoPrinc{
+  font-size: 14px;
+  color: white;
+}
+.descripcionCuerpoPrinc{
+  font-size: 12px;
+  color: white;
+}
+.detalleCuerpoPrinc{
+  font-size: 10px;
+  color: white;
+}
+.puntoCalificacion {
+  width: 15px;
+  height: 15px;
+}
+@media screen and (max-width: 768px){
+  .contenedorTituloCuerpoSecSinBackground{
+    background: url('../assets/iconos/bordeGris.svg') repeat 0 0 fixed;
+    text-align: left !important;
+  }
+  .saltoLinea {
+    display: none;
+  }
+}
+.contenedorTituloCuerpoSec {
+  margin-top: 20px;
+  height: 36px;
+  display: inline-block;
+  width: 100%;
+  background: url('../assets/iconos/bordeGris.svg') repeat 0 0 fixed;
+  margin-bottom: 15px;
+}
+.tituloCuerpoSec{
+  width: 30px;
+  height: 30px;
+  color: #379CD4;
+  font-weight: bold;
+}
+.imagenTituloSec{
+  font-size: 16px;
+  color: #379CD4;
+  width: 40px;
+  height: 40px;
+}
+.fecha{
+  font-size: 14px;
+  color: #379CD4;
+  font-weight: bold;
+}
+.subtituloCuerpoSec{
+  font-size: 14px;
+  font-weight: bold;
+}
+.descripcionCuerpoSec{
+  font-size: 12px;
+  overflow-wrap:break-word;
+}
+.detalleCuerpoSec{
+  font-size: 12px;
+  font-style: italic;
+}
+.contenedorTituloCuerpoSecSinBackground {
+  margin-top: 20px;
+  height: 36px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.contenedorFicha{
+  margin-top: 12px
+}
+.tituloDetalleCuerpoSec{
+  font-weight: bold;
+  font-size: 12px;
+}
