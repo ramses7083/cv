@@ -1,0 +1,19 @@
+<pre id="json"></pre>
+<script type="text/javascript">
+	var data = '{"data": {"x": "1","y": "1","url": "http://url.com"},"event": "start","show": 1,"id": 50}'
+	document.getElementById("json").innerHTML = JSON.parse(data);
+	var data2 = {
+    "data": {
+        "x": "1",
+        "y": "1",
+        "url": "http://url.com"
+    },
+    "event": "start",
+    "show": 1,
+    "id": 50
+}
+
+
+document.getElementById("json").innerHTML = JSON.stringify(data2, undefined, 2);
+</script>
+
